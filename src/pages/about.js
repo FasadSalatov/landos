@@ -11,6 +11,9 @@ function About() {
             <div className="section one">
                 <div className="content">
                     <h1 className='fs'>about us</h1>
+                    <div className="scroll-down">
+                        <span>▼</span>
+                    </div>
                 </div>
             </div>
             <div className="section two">
@@ -18,6 +21,7 @@ function About() {
                     <img src={onesec} width={100}/>
                     <h1>TBCC's mission is to contribute to the development of the TON blockchain ecosystem through the creation, launch and promotion of new tokens and coins.</h1>
                     <p> We strive to provide teams and startups with simple and effective tools to create their own cryptocurrencies, supporting them at all stages — from development to listing on exchanges and marketing support.</p>
+
                 </div>
             </div>
             <div className="section three">

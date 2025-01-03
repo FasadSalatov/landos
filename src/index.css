@@ -182,3 +182,28 @@ body::-webkit-scrollbar {
 .active2-link {
     color: #FFB575 !important;
 }
+
+.scroll-down {
+    text-align: center;
+    margin-top: 20px; /* Отступ сверху */
+}
+
+.scroll-down span {
+    margin-top: 20px;
+    font-size: 2rem; /* Размер стрелки */
+    display: inline-block;
+    color: white; /* Цвет стрелки */
+    animation: bounce 1.5s infinite; /* Анимация */
+}
+
+@keyframes bounce {
+    0%, 20%, 50%, 80%, 100% {
+        transform: translateY(0);
+    }
+    40% {
+        transform: translateY(-10px); /* Прыжок вверх */
+    }
+    60% {
+        transform: translateY(-5px); /* Небольшой прыжок */
+    }
+}

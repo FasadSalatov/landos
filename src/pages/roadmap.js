@@ -7,6 +7,9 @@ function Roadmap() {
             <div className="section">
                 <div className="content mt-0">
                     <h1 className="fs mt-0">roadmap</h1>
+                    <div className="scroll-down">
+                        <span>▼</span>
+                    </div>
                 </div>
             </div>
             <div className="section">

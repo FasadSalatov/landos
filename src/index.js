@@ -64,7 +64,7 @@ const App = () => {
                                     className={`nav-link pavv ${location.pathname === "/about" ? "active-link" : ""}`}
                                     to="/about"
                                 >
-                                    About us
+                                    ABOUT US
                                 </Link>
 
                             </li>
@@ -73,7 +73,7 @@ const App = () => {
                                     className={`nav-link pavv ${location.pathname === "/history" ? "active-link" : ""}`}
                                     to="/history"
                                 >
-                                    history
+                                    HISTORY
                                 </Link>
                             </li>
                             <li className="nav-item">
@@ -81,7 +81,7 @@ const App = () => {
                                     className={`nav-link pavv ${location.pathname === "/memes" ? "active-link" : ""}`}
                                     to="/memes"
                                 >
-                                    memes
+                                    MEMES
                                 </Link>
                             </li>
                             <li className="nav-item">
@@ -89,7 +89,7 @@ const App = () => {
                                     className={`nav-link pavv ${location.pathname === "/buy" ? "active-link" : ""}`}
                                     to="/buy"
                                 >
-                                    buy
+                                    BUY
                                 </Link>
                             </li>
                             <li className="nav-item">
@@ -97,7 +97,7 @@ const App = () => {
                                     className={`nav-link pavv ${location.pathname === "/road" ? "active-link" : ""}`}
                                     to="/road"
                                 >
-                                    roadmap
+                                    ROADMAP
                                 </Link>
                             </li>
                         </ul>
@@ -107,7 +107,7 @@ const App = () => {
                                     className={`nav-link pavv ${location.pathname === "/socials" ? "active-link" : ""}`}
                                     to="/socials"
                                 >
-                                    socials
+                                    SOCIALS
                                 </Link>
                             </li>
                         </ul>
@@ -153,7 +153,7 @@ const App = () => {
                                 className={`nav-link pavv pavvv ${location.pathname === "/about" ? "active2-link" : ""}`}
                                 to="/about"
                             >
-                                About us
+                                ABOUT US
                             </Link>
 
                         </li>
@@ -162,7 +162,7 @@ const App = () => {
                                 className={`nav-link pavv pavvv ${location.pathname === "/history" ? "active2-link" : ""}`}
                                 to="/history"
                             >
-                                history
+                                HISTORY
                             </Link>
 
                         </li>
@@ -171,7 +171,7 @@ const App = () => {
                                 className={`nav-link pavv pavvv ${location.pathname === "/memes" ? "active2-link" : ""}`}
                                 to="/memes"
                             >
-                                memes
+                                MEMES
                             </Link>
 
                         </li>
@@ -180,7 +180,7 @@ const App = () => {
                                 className={`nav-link pavv pavvv ${location.pathname === "/buy" ? "active2-link" : ""}`}
                                 to="/buy"
                             >
-                                buy
+                                BUY
                             </Link>
 
                         </li>
@@ -189,7 +189,7 @@ const App = () => {
                                 className={`nav-link pavv pavvv ${location.pathname === "/road" ? "active2-link" : ""}`}
                                 to="/road"
                             >
-                                roadmap
+                                ROADMAP
                             </Link>
 
                         </li>
@@ -198,7 +198,7 @@ const App = () => {
                                 className={`nav-link pavv pavvv ${location.pathname === "/socials" ? "active2-link" : ""}`}
                                 to="/socials"
                             >
-                                socials
+                                SOCIALS
                             </Link>
 
                         </li>

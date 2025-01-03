@@ -14,11 +14,16 @@ function History() {
             <div className="section one">
                 <div className="content col-lg-6 col-12">
                     <h1 className='fs'>history</h1>
-                    <p>The TBC story can be presented as an evolution of idea and implementation, reflecting the team's
+                    <p>The TBCC story can be presented as an evolution of idea and implementation, reflecting the team's
                         commitment to develop and promote the TON ecosystem through the creation of innovative
                         tokenization solutions.</p>
+                    <div className="scroll-down">
+                        <span>▼</span>
+                    </div>
                 </div>
+
             </div>
+
             <div className="section two">
                 <div className="content d-flex flex-column align-items-center col-lg-5 col-12 ">
                     <h2 className='asher'>From Idea to Reality</h2>
@@ -26,7 +31,7 @@ function History() {
             </div>
             <div className="section three his">
                 <div className="content d-flex flex-column align-items-center col-lg-5 col-12 ">
-                    <h1>Initially, TBC (TON Blockchain Coin Creator) originated as an ambitious project within the TON
+                    <h1>Initially, TBCC (TON Blockchain Coin Creator) originated as an ambitious project within the TON
                         ecosystem. The idea was to create a platform that would help teams and startups easily launch
                         their tokens on the TON blockchain using advanced technologies and flexible tools.</h1>
                 </div>
@@ -47,7 +52,7 @@ function History() {
                     <img src={his1} width={100}/>
                     <h1>A team of enthusiasts working with the TON blockchain has realized a key problem:</h1>
                     <p>Many projects, especially beginners, find it difficult to develop and issue their tokens due to
-                        technical and marketing barriers. This was the starting point for the creation of the TBC
+                        technical and marketing barriers. This was the starting point for the creation of the TBCC
                         platform.</p>
 
                 </div>
@@ -93,7 +98,7 @@ function History() {
             <div className="section sec11">
                 <div className="content d-flex flex-column align-items-center col-lg-5 col-12 ">
 
-                    <h1>TBC has become not just a tool for creating tokens, but a center of innovation. He brought
+                    <h1>TBCC has become not just a tool for creating tokens, but a center of innovation. He brought
                         together developers, teams and investors, providing them with everything they need for a quick
                         start:</h1>
                     <img src={his3} className='col-9 mt-4'/>
@@ -107,16 +112,22 @@ function History() {
             <div className="section sec13">
                 <div className="content d-flex flex-column align-items-center col-lg-5 col-12 ">
                     <img src={his5} width={100}/>
-                    <h1>To date, TBC is considered a key driver of the TON ecosystem, stimulating the launch of new projects and an increase in activity within the blockchain.</h1>
+                    <h1>To date, TBCC is considered a key driver of the TON ecosystem, stimulating the launch of new
+                        projects and an increase in activity within the blockchain.</h1>
 
                 </div>
             </div>
             <div className="section sec14">
                 <div className="content d-flex flex-column align-items-center col-lg-5 col-12 ">
                     <img src={his6} width={100}/>
-                    <h1>TBC's mission remains unchanged:</h1>
-                    <pp className='col-7'>To help projects and communities turn their ideas into successful cryptocurrency assets, contributing to the growth and development of the TON blockchain ecosystem.</pp>
-                    <pp className='mt-3' style={{color: '#FF7B7B'}}> If you need to add or clarify anything, let me know! 😊</pp>
+                    <h1>TBCC's mission remains unchanged:</h1>
+                    <pp className='col-7'>To help projects and communities turn their ideas into successful
+                        cryptocurrency assets, contributing to the growth and development of the TON blockchain
+                        ecosystem.
+                    </pp>
+                    <pp className='mt-3' style={{color: '#FF7B7B'}}> If you need to add or clarify anything, let me
+                        know! 😊
+                    </pp>
 
                 < /div>
             </div>
