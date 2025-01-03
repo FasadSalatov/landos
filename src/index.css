@@ -188,6 +188,7 @@ body::-webkit-scrollbar {
     margin-top: 20px; /* Отступ сверху */
 }
 
+
 .scroll-down span {
     margin-top: 20px;
     font-size: 2rem; /* Размер стрелки */
@@ -206,4 +207,12 @@ body::-webkit-scrollbar {
     60% {
         transform: translateY(-5px); /* Небольшой прыжок */
     }
+}
+
+/* Tablet and larger: Use 2 columns */
+@media (min-width: 768px) {
+    .video {
+        margin-left: -25%;
+    }
+
 }

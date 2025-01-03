@@ -10,29 +10,24 @@ function Socials() {
                 <div
                     className="links d-flex flex-column align-items-center align-items-md-start justify-center justify-md-start align-md-items-start col-12 col-md-4 gap-3">
                     <h1 className='d-flex justify-start text-start w-fit flex-column'>links</h1>
-                    <Link
-                        to="/contact"
-                        className="text-light footLink"
-                    >
+                    <Link to="https://www.xt.com/en/trade/tbcc_usdt" className="text-light footLink">
+                        xt
+                    </Link>
+                    <Link to="https://www.bitmart.com/trade/en-US?symbol=TBCC_USDT&r=PjkAFy&type=spot" className="text-light footLink">
+                        bitmart
+                    </Link>
+                    <Link to="https://hamsterkombatgame.io/" className="text-light footLink">
                         project
                     </Link>
-                    <Link
-                        to="/contact"
-                        className="text-light footLink"
-                    >
+                    <Link to="https://t.me/tbcc_coin" className="text-light footLink">
                         telegram
                     </Link>
-                    <Link
-                        to="/contact"
-                        className="text-light footLink"
-                    >
-                        purchase
-                    </Link> <Link
-                    to="/contact"
-                    className="text-light footLink"
-                >
-                    whitepepper
-                </Link>
+                    <Link to="https://x.com/tbcc_coin" className="text-light footLink">
+                        twitter
+                    </Link>
+                    <Link to="/contact" className="text-light footLink">
+                        whitepepper
+                    </Link>
 
                 </div>
                 <img src={socimg} className='col-md-5 col-10 mt-5 mt-md-0'/>

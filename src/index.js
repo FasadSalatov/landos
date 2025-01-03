@@ -232,7 +232,21 @@ const App = () => {
 
                 <nav className="d-flex navfoot">
                     <Link
-                        to="/contact"
+                        to="https://www.xt.com/en/trade/tbcc_usdt"
+                        className="text-light footLink mx-2 pe-3"
+                        style={{borderRight: '2px solid #393B44'}}
+                    >
+                        xt
+                    </Link>
+                    <Link
+                        to="https://www.bitmart.com/trade/en-US?symbol=TBCC_USDT&r=PjkAFy&type=spot"
+                        className="text-light footLink mx-2 pe-3"
+                        style={{borderRight: '2px solid #393B44'}}
+                    >
+                        bitmart
+                    </Link>
+                    <Link
+                        to="https://hamsterkombatgame.io/"
                         className="text-light footLink mx-2 pe-3"
                         style={{borderRight: '2px solid #393B44'}}
                     >
@@ -240,18 +254,18 @@ const App = () => {
                     </Link>
 
                     <Link
-                        to="/contact"
+                        to="https://t.me/tbcc_coin"
                         className="text-light footLink mx-2 pe-3"
                         style={{borderRight: '2px solid #393B44'}}
                     >
                         telegram
                     </Link>
                     <Link
-                        to="/contact"
+                        to="https://x.com/tbcc_coin"
                         className="text-light footLink mx-2 pe-3"
                         style={{borderRight: '2px solid #393B44'}}
                     >
-                        purchase
+                        twitter
                     </Link>
                     <Link
                         to="/contact"
