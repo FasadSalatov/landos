@@ -2,17 +2,23 @@ import React from 'react';
 import './css/about.css';
 
 function Roadmap() {
+    const scrollToNextSection = () => {
+        const nextSection = document.querySelector('.section.two');
+        if (nextSection) {
+            nextSection.scrollIntoView({ behavior: 'smooth' });
+        }
+    };
     return (
         <div className="about-container road">
             <div className="section">
                 <div className="content mt-0">
                     <h1 className="fs mt-0">roadmap</h1>
-                    <div className="scroll-down">
+                    <div className="scroll-down" onClick={scrollToNextSection}>
                         <span>▼</span>
                     </div>
                 </div>
             </div>
-            <div className="section">
+            <div className="section two">
                 <div className="content d-flex flex-column align-items-center col-lg-5 col-12">
                     <svg width="429" height="628" viewBox="0 0 429 828" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <rect width="2" height="679" transform="translate(7 10)" fill="#414288"/>

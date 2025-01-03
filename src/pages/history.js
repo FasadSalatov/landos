@@ -9,6 +9,12 @@ import his6 from './img/his6.png';
 
 import fivesec from './img/fivesec.png';
 function History() {
+    const scrollToNextSection = () => {
+        const nextSection = document.querySelector('.section.two');
+        if (nextSection) {
+            nextSection.scrollIntoView({ behavior: 'smooth' });
+        }
+    };
     return (
         <div className="about-container">
             <div className="section one">
@@ -17,7 +23,7 @@ function History() {
                     <p>The TBCC story can be presented as an evolution of idea and implementation, reflecting the team's
                         commitment to develop and promote the TON ecosystem through the creation of innovative
                         tokenization solutions.</p>
-                    <div className="scroll-down">
+                    <div className="scroll-down" onClick={scrollToNextSection}>
                         <span>▼</span>
                     </div>
                 </div>

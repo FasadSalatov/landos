@@ -6,12 +6,18 @@ import threesec from './img/threesec.png';
 import foursec from './img/foursec.png';
 import fivesec from './img/fivesec.png';
 function About() {
+    const scrollToNextSection = () => {
+        const nextSection = document.querySelector('.section.two');
+        if (nextSection) {
+            nextSection.scrollIntoView({ behavior: 'smooth' });
+        }
+    };
     return (
         <div className="about-container">
             <div className="section one">
                 <div className="content">
                     <h1 className='fs'>about us</h1>
-                    <div className="scroll-down">
+                    <div className="scroll-down" onClick={scrollToNextSection}>
                         <span>▼</span>
                     </div>
                 </div>
