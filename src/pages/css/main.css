@@ -1,0 +1,69 @@
+.main-container {
+    height: 88vh;
+    background-color: black;
+    background-image: url("/src/pages/img/bgmain.png");
+    background-size: cover;
+    background-position: center;
+    color: #ffffff;
+    position: relative;
+    overflow: hidden;
+}
+
+.content {
+    z-index: 2;
+    position: relative;
+}
+
+.tags {
+    display: flex;
+    justify-content: center;
+}
+
+.badge {
+    /* Auto layout */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 4px 10px;
+    gap: 8px;
+
+    background: #282B35 !important;
+    border-radius: 5px !important;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 140%;
+    /* or 22px */
+
+    color: #FFFFFF !important;
+
+}
+
+.title {
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 60px;
+    line-height: 90px;
+    /* identical to box height */
+
+    color: #FFFFFF;
+
+
+}
+
+.main-container::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+
+    opacity: 0.1;
+    z-index: 1;
+}

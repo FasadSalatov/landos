@@ -1,0 +1,37 @@
+.memes-container {
+    background-color: black;
+    background-size: cover;
+    background-position: center;
+    color: #ffffff;
+    position: relative;
+    overflow: hidden;
+    padding: 100px;
+}
+
+.title {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: white;
+}
+
+.memes-grid {
+    display: grid;
+    grid-template-columns: 1fr; /* Default to 1 column for small screens */
+    gap: 10px;
+    justify-items: center;
+    align-items: center;
+}
+
+.memes-grid img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+}
+
+/* Tablet and larger: Use 2 columns */
+@media (min-width: 768px) {
+    .memes-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}

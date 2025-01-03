@@ -1,0 +1,46 @@
+.soc-container {
+    height: 88vh;
+    background-color: black;
+
+    background-size: cover;
+    background-position: center;
+    color: #ffffff;
+    position: relative;
+    overflow: hidden;
+    .links h1 {
+
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 60px;
+        line-height: 90px;
+        /* identical to box height */
+
+        color: #FFFFFF;
+
+        transform: rotate(0.4deg);
+    }
+    .footLink {
+
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 36px;
+        /* identical to box height */
+        text-decoration-line: underline;
+
+        color: #FFFFFF;
+
+        transform: rotate(0.4deg);
+        transition: 0.3s;
+    }
+
+    .footLink:hover {
+        color: #FFB575 !important;
+        transition: 0.3s;
+    }
+
+
+}
+

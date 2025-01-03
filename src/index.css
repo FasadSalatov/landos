@@ -1,0 +1,93 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+body,html {
+    background-color: black;
+}
+.pavv {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    /* identical to box height */
+    text-transform: lowercase;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.8) !important;
+}
+
+.pavv:hover {
+    color: rgba(255, 255, 255, 1) !important;
+}
+
+.pupu {
+    margin-left: 50%;
+}
+
+.header {
+    background: #0D0E12;
+    border-bottom: 1px solid #393B44;
+}
+
+.pav {
+    /* project */
+
+    width: 43px;
+    height: 18px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    /* identical to box height */
+    text-decoration-line: underline;
+
+    color: #FFFFFF !important;
+
+    transform: rotate(0.4deg);
+
+
+}
+
+.navfoot {
+    margin-left: 32px;
+}
+
+.footLink {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    /* identical to box height */
+    text-decoration-line: underline !important;
+
+    color: #FFFFFF !important;
+
+    transform: rotate(0.4deg);
+
+}
+
+.active-link {
+    padding-bottom: 1px !important;
+    border-bottom: 2px solid #393B44 !important;
+
+
+}
+
+footer {
+    border-top: 1px solid #393B44;
+    position: sticky;
+    bottom: 0;
+    z-index: 999;
+}
+
+body::-webkit-scrollbar {
+    display: none; /* Для Chrome, Safari и других WebKit-браузеров */
+}
+
