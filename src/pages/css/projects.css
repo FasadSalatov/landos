@@ -1,4 +1,4 @@
-.soc-container {
+.projects-container {
     height: 88vh;
     background-color: black;
     background-size: cover;
@@ -8,7 +8,7 @@
     overflow: hidden;
 }
 
-.soc-container .links h1 {
+.projects-container .links h1 {
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 600;
@@ -18,7 +18,7 @@
     transform: rotate(0.4deg);
 }
 
-.soc-container .footLink {
+.projects-container .footLink {
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 400;
@@ -30,7 +30,7 @@
     transition: 0.3s;
 }
 
-.soc-container .footLink:hover {
+.projects-container .footLink:hover {
     color: #FFB575 !important;
     transition: 0.3s;
 }
@@ -49,26 +49,25 @@
 }
 
 @media (max-width: 768px) {
-    .soc-container .links h1 {
+    .projects-container .links h1 {
         font-size: 45px;
         line-height: 70px;
     }
     
-    .soc-container .footLink {
+    .projects-container .footLink {
         font-size: 20px;
         line-height: 30px;
     }
 }
 
 @media (max-width: 480px) {
-    .soc-container .links h1 {
+    .projects-container .links h1 {
         font-size: 35px;
         line-height: 50px;
     }
     
-    .soc-container .footLink {
+    .projects-container .footLink {
         font-size: 18px;
         line-height: 27px;
     }
-}
-
+} 
