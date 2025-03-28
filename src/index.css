@@ -30,7 +30,7 @@ body,html {
 
 .header {
     background: #0D0E12;
-    border-bottom: 1px solid #393B44;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
 }
 
 .pav {
@@ -215,4 +215,15 @@ body::-webkit-scrollbar {
         margin-left: -25%;
     }
 
+}
+
+.navbar {
+    padding: 1rem 0;
+}
+
+.navbar-brand {
+    display: flex;
+    align-items: center;
+    padding: 0;
+    margin: 0;
 }
