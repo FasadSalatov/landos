@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="800" height="600" viewBox="0 0 800 600" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <path d="M400,300 Q600,100 800,300 T1200,300" stroke="#2E5BFF" stroke-width="1" fill="none" opacity="0.1"/>
+    <path d="M350,350 Q550,150 750,350 T1150,350" stroke="#2E5BFF" stroke-width="1" fill="none" opacity="0.1"/>
+    <path d="M300,400 Q500,200 700,400 T1100,400" stroke="#2E5BFF" stroke-width="1" fill="none" opacity="0.1"/>
+    <path d="M250,450 Q450,250 650,450 T1050,450" stroke="#2E5BFF" stroke-width="1" fill="none" opacity="0.1"/>
+    <path d="M200,500 Q400,300 600,500 T1000,500" stroke="#2E5BFF" stroke-width="1" fill="none" opacity="0.1"/>
+</svg> 
