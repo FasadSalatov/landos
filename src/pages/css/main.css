@@ -33,6 +33,22 @@
     margin-bottom: 50px;
 }
 
+@media (max-width: 768px) {
+    .red-circle {
+        width: 300px;
+        height: 300px;
+        margin-bottom: 30px;
+    }
+}
+
+@media (max-width: 480px) {
+    .red-circle {
+        width: 250px;
+        height: 250px;
+        margin-bottom: 20px;
+    }
+}
+
 .messenger-title {
     font-family: 'Inter', sans-serif;
     font-style: normal;
