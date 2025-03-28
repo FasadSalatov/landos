@@ -1,5 +1,7 @@
 import React from 'react';
 import './css/memes.css';
+import { motion } from 'framer-motion';
+import { withPageTransition, cardAnimation, textAnimation } from '../animations';
 import mem1 from './img/memes/1.png';
 import mem2 from './img/memes/2.png';
 import mem3 from './img/memes/3.png';
@@ -11,20 +13,38 @@ import mem8 from './img/memes/8.png';
 
 function Memes() {
     return (
-        <div className="memes-container p-2 p-md-5">
-            <h1 className="title text-center text-md-start">memes</h1>
-            <div className="memes-grid">
-                <img src={mem1} alt="meme 1" />
-                <img src={mem2} alt="meme 2" />
-                <img src={mem3} alt="meme 3" />
-                <img src={mem4} alt="meme 4" />
-                <img src={mem5} alt="meme 5" />
-                <img src={mem6} alt="meme 6" />
-                <img src={mem7} alt="meme 7" />
-                <img src={mem8} alt="meme 8" />
-            </div>
-        </div>
+        <motion.div 
+            className="memes-container"
+            initial="initial"
+            animate="animate"
+            variants={cardAnimation}
+        >
+            <motion.div 
+                className="memes-content"
+                variants={textAnimation}
+            >
+                <motion.h1 
+                    className="memes-title"
+                    variants={textAnimation}
+                >
+                    TBCC Memes
+                </motion.h1>
+                <motion.div 
+                    className="memes-grid"
+                    variants={cardAnimation}
+                >
+                    <img src={mem1} alt="meme 1" />
+                    <img src={mem2} alt="meme 2" />
+                    <img src={mem3} alt="meme 3" />
+                    <img src={mem4} alt="meme 4" />
+                    <img src={mem5} alt="meme 5" />
+                    <img src={mem6} alt="meme 6" />
+                    <img src={mem7} alt="meme 7" />
+                    <img src={mem8} alt="meme 8" />
+                </motion.div>
+            </motion.div>
+        </motion.div>
     );
 }
 
-export default Memes;
+export default withPageTransition(Memes);

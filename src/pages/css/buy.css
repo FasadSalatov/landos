@@ -1,0 +1,113 @@
+.buy-container {
+    min-height: 100vh;
+    background: linear-gradient(180deg, #0F0F0F 0%, #1A1A1A 100%);
+    color: white;
+    padding: 4rem 0;
+}
+
+.buy-header {
+    margin-bottom: 3rem;
+}
+
+.buy-header h1 {
+    font-size: 3.5rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+    background: linear-gradient(135deg, #FFFFFF 0%, #CCCCCC 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.buy-header .lead {
+    font-size: 1.25rem;
+    color: #CCCCCC;
+}
+
+.buy-content {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.buy-section {
+    background: rgba(255, 255, 255, 0.05);
+    border-radius: 20px;
+    padding: 2rem;
+    margin-bottom: 2rem;
+}
+
+.buy-section h2 {
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+    color: #FFFFFF;
+}
+
+.steps {
+    display: grid;
+    gap: 2rem;
+}
+
+.step {
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+}
+
+.step-number {
+    width: 40px;
+    height: 40px;
+    background: linear-gradient(135deg, #FF3B3B 0%, #FF0000 100%);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 600;
+    font-size: 1.2rem;
+}
+
+.step p {
+    font-size: 1.1rem;
+    color: #CCCCCC;
+    margin: 0;
+}
+
+.buy-btn {
+    display: inline-block;
+    padding: 1rem 2rem;
+    background: linear-gradient(135deg, #FF3B3B 0%, #FF0000 100%);
+    color: white;
+    text-decoration: none;
+    border-radius: 50px;
+    font-weight: 600;
+    font-size: 1.1rem;
+    box-shadow: 0 4px 15px rgba(255, 0, 0, 0.3);
+    transition: all 0.3s ease;
+}
+
+.buy-btn:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 20px rgba(255, 0, 0, 0.4);
+    color: white;
+    text-decoration: none;
+}
+
+@media (max-width: 768px) {
+    .buy-header h1 {
+        font-size: 2.5rem;
+    }
+
+    .buy-header .lead {
+        font-size: 1.1rem;
+    }
+
+    .buy-section {
+        padding: 1.5rem;
+    }
+
+    .step {
+        gap: 1rem;
+    }
+
+    .step p {
+        font-size: 1rem;
+    }
+} 
